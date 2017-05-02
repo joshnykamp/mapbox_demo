@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mapbox Demo</title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css' rel='stylesheet' />
+    <link href="css/main.css" rel="stylesheet" />
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  </head>
+  <body>
+    <div id='map'></div>
+    <div id='menu'>
+      <input id='basic' type='radio' name='rtoggle' value='basic'>
+      <label for='basic'>basic</label>
+      <input id='streets' type='radio' name='rtoggle' value='streets'>
+      <label for='streets'>streets</label>
+      <input id='bright' type='radio' name='rtoggle' value='bright'>
+      <label for='bright'>bright</label>
+      <input id='light' type='radio' name='rtoggle' value='light'>
+      <label for='light'>light</label>
+      <input id='dark' type='radio' name='rtoggle' value='dark' checked='checked'>
+      <label for='dark'>dark</label>
+      <input id='satellite' type='radio' name='rtoggle' value='satellite'>
+      <label for='satellite'>satellite</label>
+    </div>
+    <script src="js/map.js"></script>
+  </body>
+</html>

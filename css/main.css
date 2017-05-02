@@ -1,0 +1,16 @@
+html {
+  background: #333;
+}
+
+#map {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+#menu{
+  position: absolute;
+  background: #666;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
