@@ -1,11 +1,12 @@
-html {
-  background: #333;
+body {
+  margin: 0;
+  padding: 0;
 }
-
 #map {
-  height: 100%;
-  position: absolute;
-  width: 100%;
+  position:absolute;
+  top:0;
+  bottom:0;
+  width:100%;
 }
 
 #menu{
