@@ -7,6 +7,10 @@ var map = new mapboxgl.Map({
   center: [-117.830, 33.682]
 });
 
+map.addControl(new MapboxGeocoder({
+  accessToken: mapboxgl.accessToken
+}));
+
 var layerList = document.getElementById('menu');
 var inputs = layerList.getElementsByTagName('input');
 
