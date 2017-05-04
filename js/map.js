@@ -9,3 +9,5 @@ var map = new mapboxgl.Map({
 map.addControl(new MapboxDirections({
   accessToken: mapboxgl.accessToken
 }), 'top-left');
+
+map.addControl(new mapboxgl.GeolocateControl());
