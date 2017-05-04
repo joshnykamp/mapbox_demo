@@ -5,3 +5,7 @@ var map = new mapboxgl.Map({
     center: [-117.75641351938249,33.66667087657421],
     zoom: 13
 });
+
+map.addControl(new MapboxDirections({
+  accessToken: mapboxgl.accessToken
+}), 'top-left');
